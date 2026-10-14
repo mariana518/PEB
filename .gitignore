@@ -1,0 +1,30 @@
+# Archivos temporales y librerías generadas por Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]serSettings/
+/[Mm]emoryCaptures/
+
+# Proyectos y archivos de Visual Studio / IDEs
+/*.csproj
+/*.unityproj
+/*.sln
+/*.suo
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+/*.pdb
+/*.mdb
+*.opendb
+*.VC.db
+.vs/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
