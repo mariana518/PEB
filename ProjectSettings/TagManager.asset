@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Gema
+  - piedra
   layers:
   - Default
   - TransparentFX
