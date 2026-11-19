@@ -100,15 +100,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: escenario1(lateral derecho) _0001 1_0
+      name: escenario1(lateral derecho) _AI 1_0
       rect:
         serializedVersion: 2
-        x: 911
-        y: 383
-        width: 289
-        height: 817
+        x: 720
+        y: 800
+        width: 240
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -121,11 +121,99 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: escenario1(lateral derecho) _AD
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 800
+        width: 240
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc447499717a7b42953cc48e90f0a21
+      internalID: -630423406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escenario1(lateral derecho)_BI
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 400
+        width: 240
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcedf4a19ae0ce40b70ee7d1508b59f
+      internalID: 713280836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escenario1(lateral derecho) _0001 1_4
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 240
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c6d1c3f03fe5644a571c49033054c1
+      internalID: -1098995974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escenario1(lateral derecho)_BD
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 400
+        width: 240
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297b1e9e76ac28447960fb40a5945f1b
+      internalID: -1394568452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 582f78cb62a31914fb280d521e83e24c
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +221,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":3.0},"gridSpriteSize":{"x":240.0,"y":400.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      escenario1(lateral derecho) _0001 1_0: 9156494777609079101
+      escenario1(lateral derecho) _0001 1_4: -1098995974
+      escenario1(lateral derecho) _AD: -630423406
+      escenario1(lateral derecho) _AI 1_0: 9156494777609079101
+      escenario1(lateral derecho)_BD: -1394568452
+      escenario1(lateral derecho)_BI: 713280836
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

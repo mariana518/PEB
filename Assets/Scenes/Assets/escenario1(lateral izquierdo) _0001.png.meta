@@ -100,15 +100,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: escenario1(lateral izquierdo) _0001_0
+      name: escenario1(lateral izquierdo) _AI
       rect:
         serializedVersion: 2
         x: 0
-        y: 359
-        width: 277
-        height: 841
+        y: 800
+        width: 240
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -121,11 +121,121 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: escenario1(lateral izquierdo)AD
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 800
+        width: 240
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a174910ea1fccf246bd52d13435fbd8a
+      internalID: 1188690354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escenario1(lateral izquierdo) _BI
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 240
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdf88e28d455b645988bd99acb062d6
+      internalID: 2125345918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escenario1(lateral izquierdo) BD
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 400
+        width: 240
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b3cf4114710e24e99504ddcaadefd1
+      internalID: -576837362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escenario1(lateral izquierdo)UBI
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 240
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbc96e03b08a7b4bab61cf97b7285dc
+      internalID: -780866419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escenario1(lateral izquierdo) _0001_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 240
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d40ae22f90e87944957ba7155ac549d
+      internalID: -903478225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 95cac249193a24e4eb717cedcdec26ab
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +243,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":3.0},"gridSpriteSize":{"x":240.0,"y":400.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      escenario1(lateral izquierdo) _0001_0: 5053958656746697341
+      escenario1(lateral izquierdo) BD: -576837362
+      escenario1(lateral izquierdo) _0001_5: -903478225
+      escenario1(lateral izquierdo) _AI: 5053958656746697341
+      escenario1(lateral izquierdo) _BI: 2125345918
+      escenario1(lateral izquierdo)AD: 1188690354
+      escenario1(lateral izquierdo)UBI: -780866419
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

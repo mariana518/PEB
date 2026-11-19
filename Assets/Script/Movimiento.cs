@@ -10,6 +10,8 @@ public class Movimiento : MonoBehaviour
     public float fuerzaSalto = 7f;
     private bool enSuelo = true;
 
+    public CAM_Movement camaraScript;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
