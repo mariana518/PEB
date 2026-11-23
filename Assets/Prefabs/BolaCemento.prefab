@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BolaCemento
   velocidad: 6
-  danio: 10
+  danio: 3
   tiempoVida: 8
 --- !u!212 &9211862764246304715
 SpriteRenderer:
