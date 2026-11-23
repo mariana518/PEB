@@ -3,7 +3,7 @@ using UnityEngine;
 public class BolaCemento : MonoBehaviour
 {
     public float velocidad = 6f;
-    public float danio = 10f;
+    public float danio = 5f;
     public float tiempoVida = 4f; 
 
     private Rigidbody2D rb;
