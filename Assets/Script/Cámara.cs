@@ -8,11 +8,11 @@ public class Cámara : MonoBehaviour
     public bool seguir = true;
 
     [Header("Tamaño del Zoom (Más pequeño = Más cerca)")]
-    public float tamañoZoom = 5f; // Cambia este número en el Inspector (prueba con 3 o 4)
+    public float tamañoZoom = 5f; 
 
     void Start()
     {
-        // Esto cambia automáticamente el Size de la cámara al iniciar
+
         GetComponent<Camera>().orthographicSize = tamañoZoom;
     }
 

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlataformaRota : MonoBehaviour
 {
-    public GameObject objetoCrashed; // Arrastra aquí el objeto "crashed" desde la Jerarquía
+    public GameObject objetoCrashed; 
     private int vecesPisada = 0;
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -16,7 +16,7 @@ public class PlataformaRota : MonoBehaviour
 
             if (vecesPisada == 1)
             {
-                // Primer salto: Desaparece "rota" y aparece "crashed"
+                // Primer salto
                 gameObject.SetActive(false); // Desactiva la plataforma "rota"
 
                 if (objetoCrashed != null)

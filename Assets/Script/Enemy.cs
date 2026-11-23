@@ -5,10 +5,10 @@ public class Enemy : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
     public float speed = 3f;
-    public float distanciaPatrulla = 4f; // Distancia máxima que camina a cada lado
+    public float distanciaPatrulla = 6f; // Distancia máxima que camina a cada lado
 
     private Vector2 posicionInicial;
-    private int direccion = 1; // 1 para derecha, -1 para izquierda
+    private int direccion = 1; 
 
     void Start()
     {
@@ -36,12 +36,12 @@ public class Enemy : MonoBehaviour
             animator.SetBool("Derecha", false);
         }
 
-        // Si se aleja mucho hacia la derecha, cambia de dirección a la izquierda
+        
         if (transform.position.x > posicionInicial.x + distanciaPatrulla)
         {
             direccion = -1;
         }
-        // Si se aleja mucho hacia la izquierda, cambia de dirección a la derecha
+    
         else if (transform.position.x < posicionInicial.x - distanciaPatrulla)
         {
             direccion = 1;
