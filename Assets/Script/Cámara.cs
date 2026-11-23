@@ -18,6 +18,9 @@ public class Cámara : MonoBehaviour
 
     void Update()
     {
+        if (Time.timeScale == 0f)
+            return;
+
         if (Input.GetKeyDown(KeyCode.C))
         {
             seguir = !seguir;

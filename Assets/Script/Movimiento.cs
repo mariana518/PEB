@@ -21,6 +21,9 @@ public class Movimiento : MonoBehaviour
 
     void Update()
     {
+        if (Time.timeScale == 0f)
+            return;
+
         
         movimiento.x = Input.GetAxisRaw("Horizontal");
         movimiento.y = 0;

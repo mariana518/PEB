@@ -9,6 +9,9 @@ public class Puerta : MonoBehaviour
 
     void Update()
     {
+        if (Time.timeScale == 0f)
+            return;
+
         if (jugadorCerca && (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)))
         {
             if (GameManager.Instance.TieneTodos())

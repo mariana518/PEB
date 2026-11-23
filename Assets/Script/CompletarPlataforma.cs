@@ -23,6 +23,9 @@ public class CompletarPlataforma : MonoBehaviour
 
     void Update()
     {
+        if (Time.timeScale == 0f)
+            return;
+
         if (jugador != null && Input.GetKeyDown(tecla))
         {
             if (jugador.GastarPiedras(piedrasNecesarias))
