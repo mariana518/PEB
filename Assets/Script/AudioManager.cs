@@ -15,11 +15,19 @@ public class AudioManager : MonoBehaviour
     public AudioClip recogerGema;
     public AudioClip recogerPiedra;
     public AudioClip golpeBola;      
-    public AudioClip golpeEnemigo;   
+    public AudioClip golpeEnemigo;
 
     void Awake()
     {
+        
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         Instance = this;
+        DontDestroyOnLoad(gameObject);
     }
 
     void Start()
