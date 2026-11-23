@@ -4,8 +4,9 @@ public class Enemy : MonoBehaviour
 {
     public Rigidbody2D rb;
     public Animator animator;
+
     public float speed = 3f;
-    public float distanciaPatrulla = 6f; // Distancia máxima que camina a cada lado
+    public float distanciaPatrulla = 6f; 
 
     private Vector2 posicionInicial;
     private int direccion = 1; 
@@ -21,7 +22,7 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        // Moverse según la dirección actual
+        
         rb.linearVelocity = new Vector2(speed * direccion, rb.linearVelocity.y);
 
         // Control de animaciones

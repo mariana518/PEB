@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Gema
   - piedra
+  - Enemy
   layers:
   - Default
   - TransparentFX

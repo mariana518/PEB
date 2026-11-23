@@ -16,44 +16,44 @@ public class Movimiento : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>(); // Obtenemos el componente de la imagen
+        spriteRenderer = GetComponent<SpriteRenderer>(); 
     }
 
     void Update()
     {
-        // Lee tanto la izquierda (A / Flecha Izquierda) como la derecha (D / Flecha Derecha)
+        
         movimiento.x = Input.GetAxisRaw("Horizontal");
         movimiento.y = 0;
 
-        // 1. La animación se enciende si te estás moviendo hacia cualquier lado (diferente de 0)
+        
         bool estaCaminando = movimiento.x != 0;
         animator.SetBool("Derecha", estaCaminando);
 
-        // 2. Voltear el sprite dependiendo de a dónde mires
+        
         if (movimiento.x > 0)
         {
-            spriteRenderer.flipX = false; // Mirando normal (derecha)
+            spriteRenderer.flipX = false; 
         }
         else if (movimiento.x < 0)
         {
-            spriteRenderer.flipX = true;  // Volteado horizontalmente (izquierda)
+            spriteRenderer.flipX = true; 
         }
 
         if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && enSuelo)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, fuerzaSalto);
-            enSuelo = false; // Desactivamos el salto hasta que vuelva a tocar el piso
+            enSuelo = false; 
         }
     }
 
     void FixedUpdate()
     {
-        // Mueve al personaje libremente a la izquierda o derecha
+        
         rb.linearVelocity = new Vector2(movimiento.x * velocidad, rb.linearVelocity.y);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        enSuelo = true; // Al tocar cualquier objeto con colisión (como tu piso), se reinicia el salto
+        enSuelo = true; 
     }
 }
